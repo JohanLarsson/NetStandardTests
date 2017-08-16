@@ -1,14 +1,14 @@
 ﻿namespace NetStandardTests
 {
     using Lib;
-    using Xunit;
+    using NUnit.Framework;
 
     public class Class1Tests
     {
-        [Xunit.Fact]
+        [Test]
         public void Meh()
         {
-            Assert.Equal(1, Class1.GetOne());
+            Assert.AreEqual(1, Class1.GetOne());
         }
     }
 }
